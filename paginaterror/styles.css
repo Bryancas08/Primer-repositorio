@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 90%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 20px;
+}
+
+#video-terror {
+    width: 80%;
+    height: auto;
+    border: 5px solid darkred;
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 20px;
+}
+
+#sorpresa-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#sorpresa-btn:hover {
+    background-color: darkred;
+}
+
+#sorpresa-btn:active {
+    transform: scale(0.95);
+}
